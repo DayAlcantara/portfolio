@@ -1,0 +1,119 @@
+
+    @import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:wght@300 & display=swap');
+
+    @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;700 & family= Roboto+Mono:wght@300 & display=swap');
+    *{
+        margin:0;
+        padding: 0;
+        border: 0;
+
+    }
+
+     :root{
+        --subcor: rgb(182, 199, 197);
+     }
+
+    body
+        {
+            background-color: #252525;
+            color: white;
+        }
+
+        header{
+            background-color: rgb(4, 30, 59);
+            padding: 32px;
+            border-bottom: 6px solid var(--subcor);
+        }
+       header div {
+        text-align: center;
+       }
+
+       header div a {
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 16px;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+
+
+    }
+
+     header div a:hover {
+        color: var(--subcor);
+        transition: color 700ms;
+     }
+    
+     #box {
+        text-align: center;
+        padding: 32px;
+        font-family: 'Roboto Mono', monospace;
+
+     }
+    #box img{
+        border-radius: 50%;
+        border: 5px solid var(--subcor);
+        margin-bottom: 32px;
+        margin-top: 20px;
+    }
+
+    #box h1 {
+          font-size: 42px;
+          line-height: 52px;
+          font: bold;
+          font-family:'Poppins', sans-serif;
+        }
+
+    #box h2 {
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        opacity: 0.8;
+        margin-left: 200.00px;
+        margin-right: 200.00px;
+        font-family:'Poppins', sans-serif;
+    }
+ #box p {
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 34px;
+   
+ }
+
+ #box h1:hover {
+    color: var(--subcor);
+    transition: color 700ms;
+ }
+
+ #box h2:hover {
+    color: var(--subcor);
+    transition: color 700ms;
+ }
+
+ #box p:hover {
+    color: var(--subcor);
+    transition: color 700ms;
+    cursor:grab;
+ }
+
+   #linksFooter {
+      padding-top: 28px;
+      text-align: center;
+      font-size: 30px;
+      background-color: #252525;
+      color: aqua;
+            padding: 32px;
+            border-bottom: 6px solid var(--subcor);
+         
+         
+   }
+
+   #linksfooter a {
+      padding-top: 32px;
+      padding-bottom: 8px;
+      border-bottom: 3 px solid var(--subcor);
+      background-color: aqua;
+   
+   }
